@@ -175,7 +175,7 @@ function App() {
                   value={inputUsername}
                   onChange={(e) => setInputUsername(e.target.value)}
                   margin="normal"
-                  placeholder="e.g., octocat"
+                  placeholder="e.g., saadkhan2003"
                   required
                 />
                 <Button
