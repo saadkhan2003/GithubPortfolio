@@ -3,14 +3,12 @@ import {
   Box, 
   Container, 
   Typography, 
-  Grid, 
   Card, 
   CardContent, 
   CardActions, 
   Button, 
   Chip, 
   Skeleton,
-  ButtonGroup,
   Link,
   Divider,
   Paper,
@@ -20,8 +18,7 @@ import {
   Tabs,
   Tab,
   Menu,
-  MenuItem,
-  Avatar
+  MenuItem
 } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import StarIcon from '@mui/icons-material/Star';

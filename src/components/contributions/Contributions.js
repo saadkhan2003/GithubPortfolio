@@ -66,7 +66,7 @@ const Contributions = ({ username }) => {
     // Prepare chart data for activity over time
     const activityData = {
       labels: dates.map(date => {
-        const [year, month, day] = date.split('-');
+        const [, month, day] = date.split('-'); // Removed unused 'year' variable
         return `${month}/${day}`;
       }),
       datasets: [

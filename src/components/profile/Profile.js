@@ -13,9 +13,7 @@ import {
   Card,
   CardContent,
   LinearProgress,
-  Button,
-  IconButton,
-  Tooltip
+  Button
 } from '@mui/material';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import EmailIcon from '@mui/icons-material/Email';
@@ -27,7 +25,6 @@ import PeopleIcon from '@mui/icons-material/People';
 import PersonAddIcon from '@mui/icons-material/PersonAdd';
 import CodeIcon from '@mui/icons-material/Code';
 import StarIcon from '@mui/icons-material/Star';
-import VisibilityIcon from '@mui/icons-material/Visibility';
 import ForkRightIcon from '@mui/icons-material/ForkRight';
 import InsightsIcon from '@mui/icons-material/Insights';
 import githubService from '../../services/githubService';
