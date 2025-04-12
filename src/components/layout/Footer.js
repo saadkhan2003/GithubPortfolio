@@ -163,7 +163,7 @@ const Footer = () => {
         
         <Box sx={{ display: 'flex', flexDirection: { xs: 'column', sm: 'row' }, justifyContent: 'space-between', alignItems: 'center' }}>
           <Typography variant="body2" color="text.secondary">
-            © {currentYear} GitHub Portfolio. All rights reserved.
+            © {currentYear} Muhammad Saad Khan. All rights reserved.
           </Typography>
           
           <Box sx={{ display: 'flex', gap: 2, mt: { xs: 2, sm: 0 } }}>
